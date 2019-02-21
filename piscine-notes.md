@@ -6,31 +6,32 @@
 ## basics , filesystem, cat, touch, vim, Kerberos, Git
 
 
-**standard output** - means it's displayed on your screen
-**man** - manual
-**pwd** - current working directory
-**mkdir** - make directory
-**touch** - create file
-**cat** - preview file content
-**rm** - remove
-**rm -rf** - remove directory
-**cp** - copy
-**mv** - move (change name if you move within 1 dir.)
-**ls** - list of directory content
-**ls - la** - lists all (info in folder)
-**ls - l** - displays details of a directory (lists file type,
-permissions, owner, size, date of creation & file name)
-**/** - root directory/file system (the way the files are organized on the hard-drive
-**.**  - current directory
-**. .**  - directory before current one
-**Create link** - ln -s [source file] [my file] `ln -s linkx file x`
-**softlink** -  ln -s (link A link B)
-**tar** -  tape archive `Tar -cf [filename].tar [filename]`
-**Change date and time of a file** -
-`touch -t 201806012342 file x`
-**Change date and time of a link** -
-`touch -h -t 201806012342 file x`
-**chmod** - change access permissions
+* **standard output** - means it's displayed on your screen
+* **man** - manual
+* **pwd** - current working directory
+* **mkdir** - make directory
+* **touch** - create file
+* **cat** - preview file content
+* **rm** - remove
+* **rm -rf** - remove directory
+* **cp** - copy
+* **mv** - move (change name if you move within 1 dir.)
+* **ls** - list of directory content
+* **ls - la** - lists all (info in folder)
+* **ls - l** - displays details of a directory (lists file type,
+	permissions, owner, size, date of creation & file name)
+* **/** - root directory/file system (the way the files are organized on the hard-drive
+* **.**  - current directory
+* **. .**  - directory before current one
+* **Create link** - ln -s [source file] [my file] `ln -s linkx file x`
+* **softlink** -  ln -s (link A link B)
+* **tar** -  tape archive `Tar -cf [filename].tar [filename]`
+* **Change date and time of a file** -
+* `touch -t 201806012342 file x`
+* **Change date and time of a link** -
+ `touch -h -t 201806012342 file x`
+* **chmod** - change access permissions
+
 <font color="red">drwx<font color="green">r-xr-<font color="blue">x
 
 d - directory
